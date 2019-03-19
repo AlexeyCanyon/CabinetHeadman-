@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#ea7429</item>
+        <item name="colorPrimaryDark">#bb4900</item>
+        <item name="colorAccent">#ea7429</item>
+        <item name="colorControlNormal">#ea7429</item>
+    </style>
+
+    <style name="RoundedCornerButton" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="background">@drawable/buttonstyle</item>
+        <item name="colorButtonNormal">#ea7429</item>
+        <item name="colorControlHighlight">#ea7249</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
